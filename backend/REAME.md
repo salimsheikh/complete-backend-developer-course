@@ -86,3 +86,31 @@ axios.get('/api/v1/jokes')
 ````
 (https://create-react-app.dev/docs/proxying-api-requests-in-development/)[https://create-react-app.dev/docs/proxying-api-requests-in-development/]
 Now code working because we have use proxy in vite config. Not used CORS
+
+
+(mongoosejs)[https://mongoosejs.com/docs/]
+
+(Moon Modeler)[https://www.datensen.com/data-modeling/moon-modeler-for-databases.html]
+
+app.eraser.io
+
+## Mongoose Data Modaling
+
+https://stackblitz.com/
+
+npm i mongoose
+
+Create models folder, Create folder sub folder todos
+
+create file
+user.models.js
+todo.models.js
+sub_todo.models.js
+
+
+sub_todo.models.js
+import mongoose from "mongoose"
+new userSchema = new mongoose.Schema({})
+export const User = mongoose.model("User", userSchema);
+
+
